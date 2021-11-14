@@ -1,5 +1,6 @@
 .sidebar {
-  background: $color-5;
+  border-width: 2px;
+  border-style:outset;
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;

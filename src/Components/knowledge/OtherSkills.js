@@ -7,25 +7,25 @@ const OtherSkills = () => {
             <div className="list">
                 <ul>
                     <li>
-                        <i className="fas fa-check-square"></i>
+                        <i class="fas fa-check" style={{marginRight:"5px"}}></i>
                         Anglais courant
                     </li>
                     <li>
-                        <i className="fas fa-check-square"></i>
+                        <i class="fas fa-check" style={{marginRight:"5px"}}></i>
                         Versionning (Github)
                     </li>
                     <li>
-                        <i className="fas fa-check-square"></i>
+                        <i class="fas fa-check" style={{marginRight:"5px"}}></i>
                         Kanban
                     </li>
                     <li>
-                        <i className="fas fa-check-square"></i>
+                        <i class="fas fa-check" style={{marginRight:"5px"}}></i>
                         UI/UX
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <i className="fas fa-check-square"></i>
+                        <i class="fas fa-check" style={{marginRight:"5px"}}></i>
                         SEO
                     </li>
                 </ul>

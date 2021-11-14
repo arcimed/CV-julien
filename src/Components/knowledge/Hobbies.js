@@ -25,6 +25,10 @@ const Hobbies = () => {
                     <i class="fas fa-laptop"></i>
                     <span>Informatique</span>
                 </li>
+                <li className="hobby">
+                    <i class="fas fa-film"></i>
+                    <span>Film et série</span>
+                </li>
                 
             </ul>
         </div>

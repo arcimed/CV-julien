@@ -1,56 +1,47 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'ipsum.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project1.JPG'
+    name: 'CV',
+    languages: ['javascript','css','react','fab fa-react'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt', 'fab fa-react'],
+    source: 'https://github.com/arcimed/CV-julien',
+    info: "Réalisation d'un site CV sous le language JS et scss avec le framework React et node js",
+    picture: './media/CV.png'
   },
   {
     id: 2,
-    name: 'lorem.fr',
-    languages: ['javascript','react'],
-    languagesIcons: ['fab fa-js','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project2.JPG'
+    name: 'Site marchand UI',
+    languages: ['javascript','Vue.js', 'css'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt', "fab fa-php", "fab fa-vuejs"],
+    source: 'https://github.com/arcimed/ui',
+    info: "Réalisatio de l'UI et l'UX d'un site marchand lors d'un projet sous le framework Vue.js et Vuex",
+    picture: './media/siteMarchandProjet.png'
   },
   {
     id: 3,
-    name: 'dolorset.fr',
-    languages: ['javascript','php','css'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project3.JPG'
+    name: 'Site marchand middleware',
+    languages: ['php'],
+    languagesIcons: ['fab fa-php'],
+    source: 'https://github.com/BenGround/middleware',
+    info: 'Réalisation du back du site marchand',
+    picture: './media/siteMarchandProjet.png'
   },
   {
     id: 4,
-    name: 'laboriosam.fr',
+    name: 'Wiker',
     languages: ['javascript','php','react'],
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project4.JPG'
+    source: 'https://www.wiker.fr/',
+    info: "Réalisation d'outils, de composant, de pages pour le site internet lors d'un stage",
+    picture: './media/wiker.PNG'
   },
   {
     id: 5,
-    name: 'repudiante.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project5.JPG'
-  },
-  {
-    id: 6,
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
+    name: 'Destockage-habitat',
+    languages: ['javascript','php','css'],
+    languagesIcons: ['fab fa-js', 'fab fa-php', 'fab fa-css3-alt'],
+    source: 'https://www.destockage-habitat.com/',
+    info: "Réalisation d'outils, de composant, de pages pour le site internet lors d'un stage",
+    picture: './media/destockage.PNG'
   },
 ]
